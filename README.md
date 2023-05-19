@@ -1,2 +1,2 @@
 # student-portal
-student-portal is a website which used for university
+student-portal is a university based website in which it is helpfull to students to check addmissions,examinations,results,timetable etc.....
