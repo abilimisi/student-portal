@@ -1,0 +1,17 @@
+{% autoescape off %} 
+Hi '{{ name }}'
+Welcome to Student-Portal!
+you have taken the first step towards registering. 
+Please confirm your email by clicking this link.
+Login by using username and password.....
+
+Confirmation Link: http://{{ domain }}{% url 'activate' uidb64=uid token=token %} 
+
+if you have any trouble while registering, you can always email us studentportal805@gmail.com
+
+if you didn't register for student-Portal,please ignore this message
+
+Thanks and Regards,
+Student-Portal
+ {% endautoescape %}
+
